@@ -1,0 +1,12 @@
+In Pycharm, Ctrl Alt S for opening settings
+In cmd, pip install --user pipenv
+pipenv --version to check install
+If not working, pip uninstall pipenv then reinstall
+Check install, then use
+where pipenv
+Copy the path
+In pycharm settings > Python Interpreter > Add local interpreter > Pipenv Environment > ...
+... > Choose Python version > Paste path > Click OK
+Select the correct project > Open Terminal > pipenv shell
+pipenv install <package-name> to install packages
+pipenv graph to view installed packages list
